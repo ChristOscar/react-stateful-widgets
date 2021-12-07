@@ -29,7 +29,7 @@ export default function Programmers() {
   // The programmers list on the one hand, and the id of the featured programmer on the other.
 
   const [list] = useState(listOfAwesome);
-  const [pro, setPro] = useState(0);
+  const [pro, setPro] = useState(null);
 
   const getNameOfFeatured = () => {
     // Leave this for last!
